@@ -1,0 +1,41 @@
+[global_config]
+  handle_size = 1
+  title_transmit_fg_color = "#fbe3a1"
+  geometry_hinting = False
+  title_inactive_fg_color = "#f4b918"
+  title_receive_bg_color = "#e3ca87"
+  title_transmit_bg_color = "#101511"
+  title_receive_fg_color = "#ffecb7"
+  title_inactive_bg_color = "#101511"
+[keybindings]
+  hide_window = <Shift><Control>a
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#000000:#d04470:#d29f07:#ffffff:#f8cc8f:#fed053:#fed053:#fed053:#f5c496:#f13b74:#ffb838:#fede97:#fed053:#fed053:#fed053:#ffffff"
+    background_darkness = 0.7
+    scrollback_lines = 5000
+    background_type = transparent
+    use_system_font = False
+    cursor_color = "#fed053"
+    foreground_color = "#fed053"
+    scroll_on_output = False
+    show_titlebar = False
+    color_scheme = custom
+    font = DejaVu Sans Mono 8
+    scrollback_infinite = True
+  [[jm]]
+    background_darkness = 0.8
+    palette = "#21211f:#524139:#2c382a:#ec9718:#394a52:#80744f:#5a9096:#dbd3c8:#1f1f21:#47362e:#232e22:#c78016:#2e3f47:#6e664c:#4f7b80:#c8d0db"
+    background_type = transparent
+    foreground_color = "#fed053"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 595, 336
+[plugins]
