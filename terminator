@@ -1,4 +1,3 @@
-
 [global_config]
   handle_size = 1
   title_transmit_fg_color = "#fbe3a1"
